@@ -17,6 +17,7 @@ Alter 13-17 // Cola
 /* Getränke-Challenge */
 
 "use strict";
+
 const name = prompt("Bitte geben Sie einen Namen ein:");
 const age = prompt("Bitte geben Sie ein Alter ein:");
 
@@ -33,7 +34,3 @@ if (parsedAge >= 0 && parsedAge <= 5) {
 } else {
   console.log('Ungültiges Alter.');
 }
-
-
-
-//Du kannst diesen Code in einer JavaScript-Umgebung wie Node.js ausführen, um die gewünschte Funktionalität zu erhalten. Er wird dich nach dem Namen und dem Alter fragen und entsprechend der Altersangabe die Getränkeauswahl ausgeben.
